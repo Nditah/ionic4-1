@@ -22,7 +22,9 @@ const routes: Routes = [
   { path: 'layoutHeaderFooter', loadChildren: './layout-header-footer/layout-header-footer.module#LayoutHeaderFooterPageModule' },
   { path: 'layoutTabs', loadChildren: './layout-tabs/layout-tabs.module#LayoutTabsPageModule' },
   { path: 'layoutMenu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
-  { path: 'layoutSplitPane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' }
+  { path: 'layoutSplitPane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' },
+  { path: 'LayoutGrid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' },
+  { path: 'layoutCssUtilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' }
 ];
 
 @NgModule({

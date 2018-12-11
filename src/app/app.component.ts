@@ -18,12 +18,12 @@ export class AppComponent {
     {
       title: 'Instalação',
       url: '/instalacao',
-      icon: 'home'
+      icon: 'arrow-dropright'
     },
     {
       title: 'Layout',
       url: '/layout',
-      icon: 'home'
+      icon: 'arrow-dropright'
     }
   ];
 
