@@ -24,6 +24,11 @@ export class AppComponent {
       title: 'Layout',
       url: '/layout',
       icon: 'arrow-dropright'
+    },
+    {
+      title: 'Componente',
+      url: '/componente',
+      icon: 'arrow-dropright'
     }
   ];
 

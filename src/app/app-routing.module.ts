@@ -24,7 +24,14 @@ const routes: Routes = [
   { path: 'layoutMenu', loadChildren: './layout-menu/layout-menu.module#LayoutMenuPageModule' },
   { path: 'layoutSplitPane', loadChildren: './layout-split-pane/layout-split-pane.module#LayoutSplitPanePageModule' },
   { path: 'LayoutGrid', loadChildren: './layout-grid/layout-grid.module#LayoutGridPageModule' },
-  { path: 'layoutCssUtilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' }
+  { path: 'layoutCssUtilities', loadChildren: './layout-css-utilities/layout-css-utilities.module#LayoutCssUtilitiesPageModule' },
+  { path: 'componente', loadChildren: './componente/componente.module#ComponentePageModule' },
+  { path: 'componentActionSheet', loadChildren: './component-action-sheet/component-action-sheet.module#ComponentActionSheetPageModule' },
+  { path: 'componentAlert', loadChildren: './component-alert/component-alert.module#ComponentAlertPageModule' },
+  { path: 'componentBadges', loadChildren: './component-badges/component-badges.module#ComponentBadgesPageModule' },
+  { path: 'componentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
+  { path: 'componentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
+  { path: 'componentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' }
 ];
 
 @NgModule({
