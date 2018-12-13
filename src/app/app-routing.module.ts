@@ -31,7 +31,8 @@ const routes: Routes = [
   { path: 'componentBadges', loadChildren: './component-badges/component-badges.module#ComponentBadgesPageModule' },
   { path: 'componentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
   { path: 'componentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
-  { path: 'componentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' }
+  { path: 'componentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
+  { path: 'componentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' }
 ];
 
 @NgModule({
