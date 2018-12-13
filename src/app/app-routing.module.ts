@@ -32,7 +32,10 @@ const routes: Routes = [
   { path: 'componentButton', loadChildren: './component-button/component-button.module#ComponentButtonPageModule' },
   { path: 'componentCard', loadChildren: './component-card/component-card.module#ComponentCardPageModule' },
   { path: 'componentCheckbox', loadChildren: './component-checkbox/component-checkbox.module#ComponentCheckboxPageModule' },
-  { path: 'componentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' }
+  { path: 'componentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
+  { path: 'componentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
+  { path: 'componentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
+  { path: 'componentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' }
 ];
 
 @NgModule({
