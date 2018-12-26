@@ -35,7 +35,8 @@ const routes: Routes = [
   { path: 'componentRadio', loadChildren: './component-radio/component-radio.module#ComponentRadioPageModule' },
   { path: 'componentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
   { path: 'componentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
-  { path: 'componentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' }
+  { path: 'componentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
+  { path: 'componentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
 ];
 
 @NgModule({
