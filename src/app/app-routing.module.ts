@@ -36,7 +36,11 @@ const routes: Routes = [
   { path: 'componentDatetime', loadChildren: './component-datetime/component-datetime.module#ComponentDatetimePageModule' },
   { path: 'componentFab', loadChildren: './component-fab/component-fab.module#ComponentFabPageModule' },
   { path: 'componentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
-  { path: 'componentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' }
+  { path: 'componentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
+  { path: 'componentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
+  { path: 'componentModalInternoPage', loadChildren: './component-modal-interno-page/component-modal-interno-page.module#ComponentModalInternoPagePageModule' },
+  { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
+  { path: 'componentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' }
 ];
 
 @NgModule({
