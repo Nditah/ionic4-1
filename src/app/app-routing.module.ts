@@ -38,8 +38,7 @@ const routes: Routes = [
   { path: 'componentInput', loadChildren: './component-input/component-input.module#ComponentInputPageModule' },
   { path: 'componentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
   { path: 'componentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
-  { path: 'componentModalInternoPage', loadChildren: './component-modal-interno-page/component-modal-interno-page.module#ComponentModalInternoPagePageModule' },
-  { path: 'ComponentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
+  { path: 'componentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
   { path: 'componentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' }
 ];
 

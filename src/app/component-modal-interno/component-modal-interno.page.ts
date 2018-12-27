@@ -23,7 +23,7 @@ export class ComponentModalInternoPage implements OnInit {
   }
 
   async closeModal(){
-    let resposta = {nome:'Test'};
+    let resposta = await {nome:'Test'};
     this.modalCtrl.dismiss(resposta);
   }
 

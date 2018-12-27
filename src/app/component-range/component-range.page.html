@@ -17,11 +17,27 @@
     </ion-item>
     <ion-item text-center>
       <ion-range min="18" max="21">
-        <ion-label slot="start"></ion-label>
-        <ion-label slot="end"></ion-label>
+        <ion-label slot="start">min</ion-label>
+        <ion-label slot="end">max</ion-label>
       </ion-range>
     </ion-item>
-
-
+    <ion-item text-center>
+      <ion-range pin="true" color="danger">
+        <ion-icon size="small" slot="start" name="sunny"></ion-icon>
+        <ion-icon size="small" slot="end" name="partly-sunny"></ion-icon>
+      </ion-range>
+    </ion-item>
   </ion-list>
+  <ion-item>
+    <ion-range min="500" max="2000" pin="true" step="100" snaps="true" color="danger"></ion-range>
+  </ion-item>
+  <ion-item>
+    <ion-range min="18" max="29" dualKnobs="true" pin="true" step="2" snaps="true" color="danger"></ion-range>
+  </ion-item>
+  <ion-item>
+    <ion-range min="18" max="29" dualKnobs="true" value="20" pin="true" step="2" snaps="true" color="danger"></ion-range>
+  </ion-item>
+  <ion-item>
+    <ion-range disabled pin="true"></ion-range>
+  </ion-item>
 </ion-content>
