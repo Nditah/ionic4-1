@@ -40,7 +40,9 @@ const routes: Routes = [
   { path: 'componentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
   { path: 'componentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
   { path: 'componentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
-  { path: 'componentSelect', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' }
+  { path: 'componentSelect', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' },
+  { path: 'componentSlide', loadChildren: './component-slide/component-slide.module#ComponentSlidePageModule' },
+  { path: 'componentSpinner', loadChildren: './component-spinner/component-spinner.module#ComponentSpinnerPageModule' }
 ];
 
 @NgModule({
