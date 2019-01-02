@@ -39,7 +39,8 @@ const routes: Routes = [
   { path: 'componentLoading', loadChildren: './component-loading/component-loading.module#ComponentLoadingPageModule' },
   { path: 'componentModal', loadChildren: './component-modal/component-modal.module#ComponentModalPageModule' },
   { path: 'componentModalInterno', loadChildren: './component-modal-interno/component-modal-interno.module#ComponentModalInternoPageModule' },
-  { path: 'componentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' }
+  { path: 'componentRange', loadChildren: './component-range/component-range.module#ComponentRangePageModule' },
+  { path: 'componentSelect', loadChildren: './component-select/component-select.module#ComponentSelectPageModule' }
 ];
 
 @NgModule({
